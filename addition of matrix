@@ -25,7 +25,7 @@ int main()
      {
      	for(j=0;j<c;j++)
      	{
-     		sum[i][j]=a[i][j]*b[i][j];
+     		sum[i][j]=a[i][j]+b[i][j];
      		printf("%d\t",sum[i][j]);
 		 
     	}
