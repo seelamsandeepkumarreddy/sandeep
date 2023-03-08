@@ -1,0 +1,23 @@
+#include<stdio.h>
+int main()
+{
+	int i,m,n,count=0;
+	printf("enter the value of m and n:");
+	scanf("%d%d",&m,&n);
+	printf(" odd numbers between %d is %d are",m,n);
+	for(i=m;i<=n;i++)
+	{
+		if(i%2==1)
+		{
+			printf("%d ",i);
+		}
+	
+	else
+	{
+		count++;
+	}
+  }
+	printf("\n");
+	printf("even numbers between %d is %d are: %d \n",m,n,count);
+  
+}
