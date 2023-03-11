@@ -1,0 +1,12 @@
+#include<stdio.h>
+int main()
+{
+	double n;
+	printf("enter the number");
+	scanf("%lf",&n);
+
+	{
+		printf("the square of the number is %lf",n*n);
+		printf("the cube of the number is %lf",n*n*n);
+	}
+}
